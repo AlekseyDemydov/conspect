@@ -1,8 +1,8 @@
 {
-  "name": "react",
+  "name": "conspect",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AlekseyDemydov.github.io/react/",
+  "homepage": "https://AlekseyDemydov.github.io/conspect/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
