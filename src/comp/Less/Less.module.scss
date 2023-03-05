@@ -1,0 +1,26 @@
+.navList {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  
+}
+.navBtn {
+  border: none;
+  min-width: 200px;
+  background-color: var(--bg-color-zero);
+  cursor: pointer;
+  color: var(--text-color);
+  
+}
+.navTitle {
+  margin: 15px 0;
+ 
+}
+
+.itemBar{
+  text-decoration: none;
+ 
+}
+.colorMenu{
+  color: var(--text-color-menu);
+}

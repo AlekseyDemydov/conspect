@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    
+    /* min-width: 300px; */
+    margin-right: 25px;
+    @media screen and (max-width: 402px) {
+      flex-direction: column;
+      margin: 0;
+    }
+  }
+  .sizeBar{
+    min-width: 300px;
+    max-width: 300px;
+    margin-right: 15px;
+    height: 700px;
+    overflow-x: auto;
+    // background-color: var(--bg-color);
+  }
+  @media screen and (max-width: 401px) {
+    .sizeBar {
+      display: none;
+    }
+ 
+  }
+  .sizeBarMenu{
+    margin-bottom: 20px;
+    @media screen and (min-width: 402px) {
+      display: none;
+    }
+  }

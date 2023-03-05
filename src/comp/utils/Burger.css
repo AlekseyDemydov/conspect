@@ -1,0 +1,14 @@
+.offcanvas-body{
+    background-color: var(--bg-color);
+    
+}
+.offcanvas{
+    margin-top: 187px;
+}
+.offcanvas-header {
+    justify-content: end;
+}
+.btn{
+    background-color: orange;
+    border: none;
+}

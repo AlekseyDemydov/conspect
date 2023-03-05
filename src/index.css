@@ -1,15 +1,45 @@
-@import-normalize; /* bring in normalize.css styles */
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+html[data-theme="dark"] {
+  --text-color-menu:rgb(215, 209, 209);
+  --bg-color: rgba(0, 0, 0, 0.745);
+  --text-color: white;
+  --bg-color-zero:rgba(0, 0, 0, 0);
+  --bg-header:rgba(255, 255, 255, 0.41);
+  --tag-color-pink:rgb(248, 108, 206);
+  --tag-color-blue:rgb(248, 108, 206);
+  --bg-color-code:rgba(2, 2, 62, 0.421);
+  --color-text-non:rgb(106, 126, 168);
+  --tag-color-yelow: yellow;
+  --bg-color-helth:rgb(6, 88, 26);
+}
+html[data-theme="light"] {
+  --text-color-menu:rgb(103, 108, 103);
+  --bg-color: rgba(253, 251, 251, 0.767);
+  --text-color: black;
+  --bg-color-zero:rgba(0, 0, 0, 0);
+  --bg-header:rgba(0, 0, 0, 0.41);
+  --tag-color-pink:rgb(248, 108, 206);
+  --bg-color-code:rgba(128, 141, 172, 0.051);
+  --color-text-non:rgba(7, 7, 7, 0.647);
+  --tag-color-yelow: #33b2dd;
+  --tag-color-blue:rgb(12, 5, 220);
+  --bg-color-helth:rgba(68, 225, 105, 0.368);
+}
+
+html {
+  background-color: var(--bg-color);
+  transition: background-color 300ms linear;
+
 }
