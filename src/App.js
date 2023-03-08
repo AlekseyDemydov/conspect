@@ -8,6 +8,9 @@ import { P1 } from "./comp/pages/Html/module1 les1/P1";
 import { P2 } from "./comp/pages/Html/module1 les1/P2";
 import { P3 } from "./comp/pages/Html/module1 les1/P3";
 import { P4 } from "./comp/pages/Html/module1 les1/P4";
+import { P5 } from "./comp/pages/Html/module1 les1/P5";
+import { P6 } from "./comp/pages/Html/module1 les1/P6";
+import { P7 } from "comp/pages/Html/module1 les1/P7";
 
 
 import { HtmlM1L2Ur1 } from "./comp/pages/Html/module2 les2/HtmlM1L2Ur1";
@@ -18,8 +21,6 @@ import { AppBarJs } from "./comp/AppBarHtml/AppBarJs";
 import { JsUr1 } from "./comp/pages/Js/module1/JsUr1";
 import { JsUr2 } from "./comp/pages/Js/module1/JsUr2";
 import { JsUr3 } from "./comp/pages/Js/module1/JsUr3";
-import { P5 } from "./comp/pages/Html/module1 les1/P5";
-import { P6 } from "./comp/pages/Html/module1 les1/P6";
 
 
 
@@ -38,6 +39,7 @@ export const App = () => {
             <Route path="1-4" element={<P4/>} />
             <Route path="1-5" element={<P5/>} />
             <Route path="1-6" element={<P6/>} />
+            <Route path="1-7" element={<P7/>} />
 
             <Route path="2-1" element={<HtmlM1L2Ur1 />} />
             <Route path="2-2" element={<HtmlM1L2Ur2 />} />
