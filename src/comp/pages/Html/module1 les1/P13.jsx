@@ -14,7 +14,7 @@ import {
 } from "./data/P3";
 import { HealthyBox } from "../../../utils/HealthyBox";
 
-export const P3 = () => {
+export const P13 = () => {
   return (
     <>
       <div className={s.boxInfo}>

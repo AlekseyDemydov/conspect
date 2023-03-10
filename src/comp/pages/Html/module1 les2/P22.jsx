@@ -1,5 +1,5 @@
 import s from '../../StyleBox.module.scss'
-export const HtmlM1L2Ur2 = () => {
+export const P22 = () => {
   return (
     <>
       <div className={s.boxInfo}>

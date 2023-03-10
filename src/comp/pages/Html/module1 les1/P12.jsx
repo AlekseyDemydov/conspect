@@ -16,7 +16,7 @@ import {
   data9,
 } from "./data/P2";
 
-export const P2 = () => {
+export const P12 = () => {
   return (
     <>
       <div className={s.boxInfo}>

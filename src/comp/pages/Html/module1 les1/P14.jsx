@@ -1,6 +1,6 @@
 import s from "../../StyleBox.module.scss";
 import seven from "../../../../img/html/7.jpg";
-export const P4 = () => {
+export const P14 = () => {
   return (
     <>
       <div className={s.boxInfo}>

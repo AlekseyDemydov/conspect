@@ -4,7 +4,7 @@ import one from "../../../../img/html/1.png";
 import two from "../../../../img/html/2.png";
 import three from "../../../../img/html/3.png";
 
-export const P1 = () => {
+export const P11 = () => {
   return (
     <>
       <div className={s.boxInfo}>

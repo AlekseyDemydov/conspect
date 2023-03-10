@@ -1,10 +1,11 @@
 import { Copy } from '../../../utils/Test';
 import s from '../../StyleBox.module.scss';
+import thirteen from '../../../../img/html/13.jpg';
 
 import { HealthyBox } from '../../../utils/HealthyBox';
-import { data1, data2, data3, data4, data5 } from './data/P7';
+import { data1, data2, data3, data4, data5, data6, data7 } from './data/P7';
 
-export const P7 = () => {
+export const P17 = () => {
   return (
     <>
       <div className={s.boxInfo}>
@@ -129,6 +130,91 @@ export const P7 = () => {
         <h3>
           Тег <span className={s.tag}>section</span>{' '}
         </h3>
+        <br />
+        <p>
+          Крупный раздел, объединяющий содержание по смыслу. Неотделим от
+          основного документа. Например секция списка товаров, блок личной
+          информации в профиле пользователя, раздел контактной информации.
+        </p>
+        <Copy text={data6} />
+        <HealthyBox
+          title="ПОЛЕЗНО"
+          text="Если разделу документа можно дать имя, но вне сайта он не будет иметь смысла - это <section>. Желателен заголовок."
+        />
+        <br />
+        <a
+          href="https://html.spec.whatwg.org/multipage/sections.html#the-section-element"
+          className={s.textLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ссылка на спецификацию
+        </a>
+        <br />
+        <br />
+        <h3>
+          Тег <span className={s.tag}>&lt;div&gt;</span>{' '}
+        </h3>
+        <br />
+        <p>
+          Универсальный контейнер без семантического значения. Используется как
+          блок-обёртка для последующей стилизации контента.
+        </p>
+        <HealthyBox
+          title="ПОЛЕЗНО"
+          text={`Если не получается дать группе контента вменяемое имя (не "правая колонка", а имеющее смысл) - это <div> и скорее всего вам просто нужен общий контейнер для оформления.`}
+        />
+        <br />
+        <a
+          href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element"
+          className={s.textLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ссылка на спецификацию
+        </a>
+        <br />
+        <br />
+        <h3>Алгоритм выбора тега</h3>
+        <br />
+        <p>
+          Не только новичкам бывает трудно решить какой тег использовать для
+          разметки блока контента основываясь на его семантическом значении.
+          Пользуйтесь этим алгоритмом для определения подходящего тега.
+        </p>
+        <br />
+        <img src={thirteen} alt="" className={s.imgLess} />
+        <br />
+        <h3>Разметка страницы</h3>
+        <br />
+        <p>
+          Используя все рассмотренные теги наберём разметку простой страницы
+          начинающей веб-студии.
+        </p>
+        <iframe
+          className={s.iframe}
+          scrolling="no"
+          title="lesson-01-sectioning-example"
+          src="https://codepen.io/goit-academy/embed/ExPmoKE?default-tab=html"
+          frameBorder="no"
+          // loading="lazy"
+          allowtransparency="true"
+          allowFullScreen={true}
+        ></iframe>
+        <br />
+        <p>
+          В примере не хватает разметки скелета документа, потому что его
+          автоматически добавляет сама интерактивная площадка <a
+          href="https://codepen.io/your-work"
+          className={s.textLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          codepen.io.
+        </a> Для
+          полноты картины запишем базовую разметку документа.
+        </p>
+        <Copy text={data7} />
       </div>
     </>
   );

@@ -8,7 +8,7 @@ import ele from "../../../../img/html/11.jpg";
 import twe from "../../../../img/html/12.jpg";
 import { HealthyBox } from "../../../utils/HealthyBox";
 
-export const P6 = () => {
+export const P16 = () => {
   return (
     <>
       <div className={s.boxInfo}>

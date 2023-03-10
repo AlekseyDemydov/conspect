@@ -15,7 +15,7 @@ import {
   data9,
 } from "./data/P5";
 import { HealthyBox } from "../../../utils/HealthyBox";
-export const P5 = () => {
+export const P15 = () => {
   return (
     <>
       <div className={s.boxInfo}>

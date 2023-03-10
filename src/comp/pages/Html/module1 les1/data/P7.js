@@ -26,7 +26,7 @@ export const data1 = (
     &nbsp;&nbsp;
     &lt;/<span className={s.codeTagBlue}>header</span>&gt;
     <br/>
-    &lt;<span className={s.codeTagBlue}>body</span>&gt;
+    &lt;/<span className={s.codeTagBlue}>body</span>&gt;
   </code>
 );
 export const data2 = (
@@ -229,5 +229,70 @@ export const data5 = (
     &lt;<span className={s.codeTagBlue}>p</span>&gt;Цена: 50 кредитов&lt;/<span className={s.codeTagBlue}>p</span>&gt;
     <br/>
     &lt;/<span className={s.codeTagBlue}>article</span>&gt;
+  </code>
+);
+export const data6 = (
+  <code className={s.code}>
+    &lt;<span className={s.codeTagBlue}>section</span>&gt;
+    <br/>
+    &nbsp;&nbsp;
+    &lt;<span className={s.codeTagBlue}>h1</span>&gt;Самые популярные пирожки этой недели&lt;/<span className={s.codeTagBlue}>h1</span>&gt;
+    <br/>
+    <br/>
+    &nbsp;&nbsp;&nbsp;
+    <span className={s.codeText}>&lt;!-- Внутри каждого &lt;li&gt; может быть карточка пирожка из секции «Тег &lt;article&gt;» --&gt;</span>
+    <br/>
+    &nbsp;&nbsp;
+    &lt;<span className={s.codeTagBlue}>ul</span>&gt;
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    &lt;<span className={s.codeTagBlue}>li</span>&gt;Жареный с грибами&lt;/<span className={s.codeTagBlue}>li</span>&gt;
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    &lt;<span className={s.codeTagBlue}>li</span>&gt;Жареный с мяссом&lt;/<span className={s.codeTagBlue}>li</span>&gt;
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    &lt;<span className={s.codeTagBlue}>li</span>&gt;Печёный с яблоками&lt;/<span className={s.codeTagBlue}>li</span>&gt;
+    <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    &lt;<span className={s.codeTagBlue}>li</span>&gt;Печёный с творогом&lt;/<span className={s.codeTagBlue}>li</span>&gt;
+    <br/>
+    &nbsp;&nbsp;
+    &lt;/<span className={s.codeTagBlue}>ul</span>&gt;
+    <br/>
+    &lt;/<span className={s.codeTagBlue}>section</span>&gt;
+  </code>
+);
+export const data7 = (
+  <code className={s.code}>
+    <span className={s.codeText}>&lt;!DOCTYPE html&gt;</span>
+    <br />
+    &lt;<span className={s.codeTagBlue}>html </span>{" "}
+    <span className={s.codeTagYelow}>lang</span>="
+    <span className={s.codeTagPink}>ru</span>"&gt;
+    <br />
+    &nbsp;&nbsp; &lt;<span className={s.codeTagBlue}>head</span>&gt;
+    
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span className={s.codeTagBlue}>
+      meta
+    </span>{" "}
+    <span className={s.codeTagYelow}>charset</span>="
+    <span className={s.codeTagPink}>utf-8</span>"/&gt;
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp; &lt;<span className={s.codeTagBlue}>title</span>
+    &gt;Веб студия mango.dev&lt;/
+    <span className={s.codeTagBlue}>title</span>&gt;
+    <br />
+    &nbsp;&nbsp; &lt;/<span className={s.codeTagBlue}>head</span>&gt;
+    <br />
+    &nbsp;&nbsp; &lt;<span className={s.codeTagBlue}>body</span>&gt;
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <span className={s.codeText}>&lt;-- Вся разметка из живого примера --&gt;</span>
+    <br />
+    &nbsp;&nbsp; &lt;/<span className={s.codeTagBlue}>body</span>&gt;
+    <br />
+    &lt;/<span className={s.codeTagBlue}>html</span>&gt;
   </code>
 );

@@ -4,18 +4,22 @@ import "./App.css";
 import Layout from "./comp/Layout/Layout";
 
 import { AppBarHtml } from "./comp/AppBarHtml/AppBarHtml";
-import { P1 } from "./comp/pages/Html/module1 les1/P1";
-import { P2 } from "./comp/pages/Html/module1 les1/P2";
-import { P3 } from "./comp/pages/Html/module1 les1/P3";
-import { P4 } from "./comp/pages/Html/module1 les1/P4";
-import { P5 } from "./comp/pages/Html/module1 les1/P5";
-import { P6 } from "./comp/pages/Html/module1 les1/P6";
-import { P7 } from "comp/pages/Html/module1 les1/P7";
+import { P11 } from "./comp/pages/Html/module1 les1/P11";
+import { P12 } from "./comp/pages/Html/module1 les1/P12";
+import { P13 } from "./comp/pages/Html/module1 les1/P13";
+import { P14 } from "./comp/pages/Html/module1 les1/P14";
+import { P15 } from "./comp/pages/Html/module1 les1/P15";
+import { P16 } from "./comp/pages/Html/module1 les1/P16";
+import { P17 } from "comp/pages/Html/module1 les1/P17";
+import { P18 } from "comp/pages/Html/module1 les1/P18";
+import { P19 } from "comp/pages/Html/module1 les1/P19";
+import { P110 } from "comp/pages/Html/module1 les1/P110";
 
 
-import { HtmlM1L2Ur1 } from "./comp/pages/Html/module2 les2/HtmlM1L2Ur1";
-import { HtmlM1L2Ur2 } from "./comp/pages/Html/module2 les2/HtmlM1L2Ur2";
-import { HtmlM1L2Ur3 } from "./comp/pages/Html/module2 les2/HtmlM1L2Ur3";
+
+import { P21 } from "comp/pages/Html/module1 les2/P21";
+import { P22 } from "./comp/pages/Html/module1 les2/P22.jsx";
+import { P23 } from "./comp/pages/Html/module1 les2/P23";
 
 import { AppBarJs } from "./comp/AppBarHtml/AppBarJs";
 import { JsUr1 } from "./comp/pages/Js/module1/JsUr1";
@@ -33,17 +37,20 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="html" element={<AppBarHtml />}>
-            <Route path="1-1" element={<P1/>} />
-            <Route path="1-2" element={<P2/>} />
-            <Route path="1-3" element={<P3/>} />
-            <Route path="1-4" element={<P4/>} />
-            <Route path="1-5" element={<P5/>} />
-            <Route path="1-6" element={<P6/>} />
-            <Route path="1-7" element={<P7/>} />
+            <Route path="1-1" element={<P11/>} />
+            <Route path="1-2" element={<P12/>} />
+            <Route path="1-3" element={<P13/>} />
+            <Route path="1-4" element={<P14/>} />
+            <Route path="1-5" element={<P15/>} />
+            <Route path="1-6" element={<P16/>} />
+            <Route path="1-7" element={<P17/>} />
+            <Route path="1-8" element={<P18/>} />
+            <Route path="1-9" element={<P19/>} />
+            <Route path="1-10" element={<P110/>} />
 
-            <Route path="2-1" element={<HtmlM1L2Ur1 />} />
-            <Route path="2-2" element={<HtmlM1L2Ur2 />} />
-            <Route path="2-3" element={<HtmlM1L2Ur3 />} />
+            <Route path="2-1" element={<P21/>} />
+            <Route path="2-2" element={<P22 />} />
+            <Route path="2-3" element={<P23 />} />
           </Route>
           <Route path="js" element={<AppBarJs />}>
             <Route path="1-1" element={<JsUr1 />} />
