@@ -8,9 +8,17 @@
 }
 .helth {
   background-color: var(--bg-color-helth);
+  // background-color: #ff000054;
   padding: 10px 30px;
   border-radius: 15px;
   border-left: 5px solid green;
+}
+.helthRed {
+ 
+  background-color: #ff000054;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border-left: 5px solid red;
 }
 .iconBox {
   display: flex;
