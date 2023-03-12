@@ -1,6 +1,6 @@
 import { Copy } from "../../../utils/Test";
 import s from "../../StyleBox.module.scss";
-import { data1, data2, data3, data4, data5, data6 } from "./data/P6";
+import { data1, data2, data3, data4, data5, data6, data7 } from "./data/P16";
 import eth from "../../../../img/html/8.jpg";
 import nine from "../../../../img/html/9.png";
 import ten from "../../../../img/html/10.jpg";
@@ -113,7 +113,7 @@ export const P16 = () => {
           ресурсов.
         </p>
         <br />
-        <Copy text="https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg" />
+        <Copy text={data7} />
         <p>
           Абсолютные адреса состоят минимум из трёх частей: протокол, имя
           сервера и путь к файлу.

@@ -1,6 +1,6 @@
 import s from '../../StyleBox.module.scss';
 import { HealthyBox } from 'comp/utils/HealthyBox';
-import { data1 } from './data/P10';
+import { data1 } from './data/P110';
 
 export const P110 = () => {
   return (

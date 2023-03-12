@@ -12,9 +12,14 @@
 }
 .code {
   color: var(--text-color);
+  width: 100%;
+  @media screen and (max-width:401px){
+    max-width: 285px;
+  }
 }
 code {
   color: var(--text-color);
+  
 }
 .boxInfo p,
 h2,
@@ -58,7 +63,7 @@ b {
 .imgLess{
   width: 800px;
   @media screen and (max-width:401px){
-    max-width: 100%;
+    width: 100%;
   }
 }
 .copyBox {
@@ -79,4 +84,8 @@ b {
 }
 .font{
   line-height: 30px;
+}
+.gray{
+  background-color: rgba(128, 128, 128, 0.258);
+  width: 100%;
 }

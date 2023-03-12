@@ -107,3 +107,8 @@ export const data6 = (
     &lt;/<span className={s.codeTagBlue}>a</span>&gt;
   </code>
 );
+export const data7 = (
+  <code className={s.code}>
+https://images.pexels.com/photos/583842/pexels-photo-583842.jpeg
+  </code>
+);

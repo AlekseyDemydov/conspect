@@ -13,7 +13,7 @@ import {
   data7,
   data8,
   data9,
-} from "./data/P5";
+} from "./data/P15";
 import { HealthyBox } from "../../../utils/HealthyBox";
 export const P15 = () => {
   return (

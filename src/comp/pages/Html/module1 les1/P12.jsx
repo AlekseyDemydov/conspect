@@ -14,7 +14,7 @@ import {
   data7,
   data8,
   data9,
-} from "./data/P2";
+} from "./data/P12";
 
 export const P12 = () => {
   return (

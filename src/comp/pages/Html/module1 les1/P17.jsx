@@ -3,7 +3,7 @@ import s from '../../StyleBox.module.scss';
 import thirteen from '../../../../img/html/13.jpg';
 
 import { HealthyBox } from '../../../utils/HealthyBox';
-import { data1, data2, data3, data4, data5, data6, data7 } from './data/P7';
+import { data1, data2, data3, data4, data5, data6, data7 } from './data/P17';
 
 export const P17 = () => {
   return (

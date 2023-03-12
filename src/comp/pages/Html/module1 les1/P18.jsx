@@ -1,7 +1,7 @@
 import { HealthyBox } from 'comp/utils/HealthyBox';
 import { Copy } from 'comp/utils/Test';
 import s from '../../StyleBox.module.scss';
-import { data1, data2 } from './data/P8';
+import { data1, data2 } from './data/P18';
 import fourteen from '../../../../img/html/14.jpg';
 
 export const P18 = () => {
