@@ -10,7 +10,7 @@ import { navItemsName } from "./data/html";
 import s from "./Less.module.scss";
 import { StyledLink } from "./StyleLink";
 
-export const Html = () => {
+export const Html = ({onHide}) => {
   const module = navItemsName;
 
   return (
@@ -26,7 +26,7 @@ export const Html = () => {
                     _hover={{
                       color: "orange",
                     }}
-                    _expanded={{
+                    _active={{
                       color: "orange",
                     }}
                   >
@@ -42,11 +42,11 @@ export const Html = () => {
                     </Box>
                   </AccordionButton>
                 </h2>
-                <AccordionPanel pb={4}>
+                <AccordionPanel pb={3}>
                   <div className={s.navList}>
                     {key.map(({ num, name, href }) => {
                       return (
-                        <StyledLink to={href} key={num} className={s.itemBar}>
+                        <StyledLink to={href} key={num} className={s.itemBar} onClick={onHide}>
                           {name}
                         </StyledLink>
                       );

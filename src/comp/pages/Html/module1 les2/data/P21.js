@@ -55,7 +55,7 @@ export const data2 = (
   <code className={s.code}>
     &lt;<span className={s.codeTagBlue}>table</span>&gt;
     <br/>
-    
+    <div className={s.gray}>
     &nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>tr</span>&gt;
     <br/>
@@ -70,7 +70,7 @@ export const data2 = (
     <br/>
     &nbsp;&nbsp;
     &lt;/<span className={s.codeTagBlue}>tr</span>&gt;
-    
+    </div>
     <br/>
     &nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>tr</span>&gt;
@@ -124,9 +124,9 @@ export const data3 = (
   <code className={s.code}>
     &lt;<span className={s.codeTagBlue}>table</span>&gt;
     <br/>
-    
+    <div className={s.gray}>
     &nbsp;&nbsp;
-    &lt;<span className={s.codeTagBlue}>thead</span>&gt;
+    &lt;<span className={s.codeTagBlue}>thead</span>&gt;</div>
     
     &nbsp;&nbsp;&nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>tr</span>&gt;
@@ -143,16 +143,16 @@ export const data3 = (
     &nbsp;&nbsp;&nbsp;&nbsp;
     &lt;/<span className={s.codeTagBlue}>tr</span>&gt;
     <br/>
-    
+    <div className={s.gray}>
     &nbsp;&nbsp;
-    &lt;/<span className={s.codeTagBlue}>thead</span>&gt;
+    &lt;/<span className={s.codeTagBlue}>thead</span>&gt;</div>
     
+  
     <br/>
-    <br/>
-    
+    <div className={s.gray}>
     &nbsp;&nbsp;
-    &lt;<span className={s.codeTagBlue}>tbody</span>&gt;
-    
+    &lt;<span className={s.codeTagBlue}>tbody</span>&gt;</div>
+  
     
     &nbsp;&nbsp;&nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>tr</span>&gt;
@@ -199,9 +199,9 @@ export const data3 = (
     &nbsp;&nbsp;&nbsp;&nbsp;
     &lt;/<span className={s.codeTagBlue}>tr</span>&gt;
     <br/>
-    
+    <div className={s.gray}>
     &nbsp;&nbsp;
-    &lt;/<span className={s.codeTagBlue}>tbody</span>&gt;
+    &lt;/<span className={s.codeTagBlue}>tbody</span>&gt;</div>
     
     &lt;/<span className={s.codeTagBlue}>table</span>&gt;
   </code>
@@ -222,7 +222,7 @@ export const data5 = (
   <code className={s.code}>
     &lt;<span className={s.codeTagBlue}>table</span>&gt;
     <br/>
-    
+    <div className={s.gray}>
     &nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>caption</span>&gt;
     <br/>
@@ -231,8 +231,8 @@ export const data5 = (
     <br/>
     &nbsp;&nbsp;
     &lt;/<span className={s.codeTagBlue}>caption</span>&gt;
+    </div>
     
-    <br/>
    
     &nbsp;&nbsp;&nbsp;&nbsp;
     <span className={s.codeText}>&lt;!-- Остальная разметка таблицы --&gt;</span>
@@ -350,13 +350,14 @@ export const data7 = (
     &nbsp;&nbsp;&nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>tr</span>&gt;
     <br/>
+    <div className={s.gray}>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>th</span> <span className={s.codeTagYelow}>rowspan</span>="<span className={s.codeTagPink}>2</span>"&gt;Облачный сервис&lt;/<span className={s.codeTagBlue}>th</span>&gt;
     <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &lt;<span className={s.codeTagBlue}>th</span> <span className={s.codeTagYelow}>colspan</span>="<span className={s.codeTagPink}>3</span>&gt;Использование&lt;/<span className={s.codeTagBlue}>th</span>&gt;
+    </div>
     
-    <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;
     &lt;/<span className={s.codeTagBlue}>tr</span>&gt;
     <br/>

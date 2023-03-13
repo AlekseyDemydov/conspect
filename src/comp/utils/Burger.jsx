@@ -18,12 +18,12 @@ export function Burger() {
         menu
       </Button>
 
-      <Offcanvas show={show} onHide={handleClose} >
+      <Offcanvas show={show}  onHide={handleClose}>
         <Offcanvas.Header closeButton>
           {/* <Offcanvas.Title>Offcanvas</Offcanvas.Title> */}
         </Offcanvas.Header>
         <Offcanvas.Body>
-         <Html />
+         <Html onHide={handleClose}/>
         </Offcanvas.Body>
       </Offcanvas>
     </>

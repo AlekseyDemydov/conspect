@@ -11,7 +11,6 @@ export const StyledNavLink = styled(NavLink)`
   &.active {
     border-bottom: 2px solid orange;
     border-radius: 10px;
-    
     }
   }
 `;

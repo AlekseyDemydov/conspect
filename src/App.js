@@ -25,6 +25,7 @@ import { AppBarJs } from "./comp/AppBarHtml/AppBarJs";
 import { JsUr1 } from "./comp/pages/Js/module1/JsUr1";
 import { JsUr2 } from "./comp/pages/Js/module1/JsUr2";
 import { JsUr3 } from "./comp/pages/Js/module1/JsUr3";
+import { P24 } from "comp/pages/Html/module1 les2/P24";
 
 
 
@@ -51,6 +52,7 @@ export const App = () => {
             <Route path="2-1" element={<P21/>} />
             <Route path="2-2" element={<P22 />} />
             <Route path="2-3" element={<P23 />} />
+            <Route path="2-4" element={<P24 />} />
           </Route>
           <Route path="js" element={<AppBarJs />}>
             <Route path="1-1" element={<JsUr1 />} />
